@@ -55,8 +55,8 @@
         <section id="watch">
             <h2>Watch</h2>
           <video controls>
-            <source src="/media/video/monkaa_1080p.mp4" type="video/mp4">
-            <source src="/media/video/monkaa_1080p.webm" type="video/webm">  
+          #e86861
+           <source src="/media/video/monkaa_1080p.webm" type="video/webm">  
              </video>
          
 
@@ -65,8 +65,8 @@
             <p>
                 Click below to download either MP4 or WEBM versions of this video.
                 <br>
-               <a class="download-button" href="media/video/monkaa_1080p.mp4"> .MPf Version</a>
-               <a class="download-button" src="/webm.png" alt="WEBM logo" href="media/video/monkaa_1080p.webm">.WEBM Version</a>
+               <button type="button"><a class="download-button" href="media/video/monkaa_1080p.mp4"> .MPf Version</a></button>
+               <button type="button"> <a class="download-button" src="/webm.png" alt="WEBM logo" href="media/video/monkaa_1080p.webm">.WEBM Version</a></button>
               </p>
          
         </section>
@@ -78,12 +78,15 @@
             <h2>Listen</h2>
             <!-- TODO: Embed an audio player so users can play back the
                  soundtrack MP3 directly on the page. -->
+          <video controls loop>
+             <source src="/media/video/flying_monkey_loop.mp4" type="video/mp4">  
+          </video>
            <audio controls>
             <source src="/media/audio/monkaa_soundtrack.mp3" type="audio/mp3"> 
              </audio>
             <!-- TODO: Style an elegant download link to download the video. -->
             <p>
-                <a class="download-button" href="media/audio/monkaa_soundtrack.mp3">Download as MP3</a>
+               <button type="button"> <a class="download-button" href="media/audio/monkaa_soundtrack.mp3">Download as MP3</a></button>
             </p>
         </section>
 

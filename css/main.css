@@ -48,7 +48,7 @@ header{
 }
 
 h1{
-  color: pink;
+  color: #e86861;
   width: 200px;
   height: 50px;
   font-size: 300%;
@@ -61,7 +61,7 @@ p.subtitle{
   font-size: 20px;
   width: 500px;
   height: 50px;
-  color: Pink;
+  color: #e86861;
 }
 
 nav
@@ -69,7 +69,7 @@ aside h2{
   margin: 0;
   padding: 1px;
   text-align: right;
-  color: pink;
+  color: #ed7c76;
 }
 #social{
   position: fixed;
@@ -105,7 +105,7 @@ ul.social-links{
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: #ed7c76; /*#55ACEE;*/
   color: white;
 }
 .fa-instagram {
@@ -119,8 +119,7 @@ ul.social-links{
   float: left;
 }
 #watch{
-  background: yellow;
-  margin-bottom: 20px;
+  background: #4abae2;
 }
 #watch video{
   width: 800px;
@@ -130,29 +129,66 @@ ul.social-links{
 /*How to style watch h3 and p*/
 #watch h3{
   width: 200px;
-  margin: 0;
+  margin:10 0;
 }
 #watch p{
   position: relative;
-    margin: 0 0 20px 0;
+    margin: 0;
+}
+
+
+button{
+    background-color: #ed7c76;
+    border: none;
+    color: white;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 10px;
+    cursor: pointer;
+  border-radius: 50%;
+   box-shadow: 5px 5px 5px #888888;
+}
+.download-button{
+  color: black;
+    padding: 20px;
+   font-size: 16px;
+}
+button:hover{
+  background: gray;
+  opacity: .5;
 }
 
 #listen{
-  background: #54ea90;
+  background: #4abae2;
+  padding: 50px 0;
 }
 #listen h2{
-  margin: 20px 130px 0 0;
-  float: left;
+  margin: 0px 20px;
+}
+#listen p{
+position: relative;
+}
+#listen video{
+  position: absolute center;
+  width: 500px;
+  height: auto;
 }
 #listen audio{
-  margin: 20px
+  max-width: 200px;
+  margin: 20px;
+  position: relative;
+  bottom: 20px;
 }
 
 
 #about{
-  background: #e89435; 
+  background: #4abae2; 
   position: left;
+  margin: 0;
+  padding: 50px 10px;
 }
 footer{
-  background: #c58ef2;
+  background: #4abae2;
 }
