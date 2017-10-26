@@ -40,6 +40,7 @@ body{
 
 header{
   height: 390px;
+  background: #4abae2;
   background-image: url(../img/official_header.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -115,7 +116,7 @@ ul.social-links{
 
 #watch h2{
   margin: 0 125px 0 0;
-  font-size: 200%;
+  font-size: 400%;
   float: left;
 }
 #watch{
@@ -124,6 +125,7 @@ ul.social-links{
 #watch video{
   width: 800px;
   height: auto;
+  position: center center;
 }
 
 /*How to style watch h3 and p*/
@@ -166,12 +168,16 @@ button:hover{
 }
 #listen h2{
   margin: 0px 20px;
+  padding-bottom: 20px;
+  font-size: 400%;
 }
 #listen p{
-position: relative;
+position: absolute;
+ left: 25px;
 }
 #listen video{
-  position: absolute center;
+  position: absolute;
+  left: 250px;
   width: 500px;
   height: auto;
 }
@@ -181,13 +187,18 @@ position: relative;
   position: relative;
   bottom: 20px;
 }
-
+#about h2{
+  font-size: 400%;
+}
 
 #about{
   background: #4abae2; 
   position: left;
   margin: 0;
-  padding: 50px 10px;
+  padding: 100px 10px 50px;
+}
+.weybec-people li{
+  list-style: none;
 }
 footer{
   background: #4abae2;
