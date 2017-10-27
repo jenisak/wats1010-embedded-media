@@ -12,9 +12,10 @@ html{
   padding: 0;
   float: center;
 }
-body{
-  margin: 0;
-}
+/*body{
+  margin-right: 100px;
+  margin-left: 100px;
+}*/
 
 .main-nav {
     background-color: #333;
@@ -65,8 +66,7 @@ p.subtitle{
   color: #e86861;
 }
 
-nav
-aside h2{
+nav aside h2{
   margin: 0;
   padding: 1px;
   text-align: right;
@@ -116,11 +116,16 @@ ul.social-links{
 
 #watch h2{
   margin: 0 125px 0 0;
-  font-size: 400%;
+  font-size: 300%;
   float: left;
 }
 #watch{
   background: #4abae2;
+  padding-bottom: 10px;
+}
+#watch div{
+  margin: auto;
+  width: 500px;
 }
 #watch video{
   width: 800px;
@@ -163,43 +168,47 @@ button:hover{
 }
 
 #listen{
-  background: #4abae2;
-  padding: 50px 0;
+  background: #db9525;
+  margin-top: 20px;
 }
 #listen h2{
   margin: 0px 20px;
   padding-bottom: 20px;
-  font-size: 400%;
+  font-size: 300%;
 }
-#listen p{
-position: absolute;
- left: 25px;
-}
-#listen video{
-  position: absolute;
-  left: 250px;
-  width: 500px;
-  height: auto;
+#listen div{
+  display: flex;
+  justify-content: space-evenly;
 }
 #listen audio{
   max-width: 200px;
   margin: 20px;
-  position: relative;
-  bottom: 20px;
 }
 #about h2{
-  font-size: 400%;
+  font-size: 300%;
+  margin-top: 10px;
 }
 
 #about{
-  background: #4abae2; 
-  position: left;
-  margin: 0;
-  padding: 100px 10px 50px;
+  background: #ed7c76; 
+  margin: 20px 0 0 0;
+  padding: 10px;
 }
-.weybec-people li{
-  list-style: none;
+.weybec-people img{
+  height: 250px;
+  width: auto;
 }
+div.weybec-people{
+  display: flex;
+  justify-content: space-around;
+} 
+div.weybec-people div{
+  display: inline-block;
+}
+
 footer{
   background: #4abae2;
+}
+footer p{
+  margin: 0 20px;
 }
