@@ -12,10 +12,6 @@ html{
   padding: 0;
   float: center;
 }
-/*body{
-  margin-right: 100px;
-  margin-left: 100px;
-}*/
 
 .main-nav {
     background-color: #333;
@@ -106,7 +102,7 @@ ul.social-links{
 }
 
 .fa-twitter {
-  background: #ed7c76; /*#55ACEE;*/
+  background: #ed7c76; 
   color: white;
 }
 .fa-instagram {
@@ -132,8 +128,6 @@ ul.social-links{
   height: auto;
   position: center center;
 }
-
-/*How to style watch h3 and p*/
 #watch h3{
   width: 200px;
   margin:10 0;
@@ -142,8 +136,6 @@ ul.social-links{
   position: relative;
     margin: 0;
 }
-
-
 button{
     background-color: #ed7c76;
     border: none;
@@ -169,8 +161,12 @@ button:hover{
 
 #listen{
   background: #db9525;
+  background-image: url(../img/monkaa_monkeyhang.jpg);
+  background-repeat: repeat;
+  background-size: contain;
   margin-top: 20px;
 }
+
 #listen h2{
   margin: 0px 20px;
   padding-bottom: 20px;
@@ -205,10 +201,20 @@ div.weybec-people{
 div.weybec-people div{
   display: inline-block;
 }
-
+p.lead{
+  font-size: larger;
+  text-align: center;
+  margin-bottom: 50px;
+}
 footer{
-  background: #4abae2;
+ background: #4abae2;
+  background-image: url(../img/monkaa_title.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 footer p{
   margin: 0 20px;
+  padding: 40px 0;
+  font-style: bold;
 }
